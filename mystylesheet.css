@@ -27,12 +27,35 @@ h1, h2, h3, h4, h5, h6 {
         color:rgb(26, 160, 162)
         
 }
-.container {
+.container  {
         text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px; 
+        border: 2px solid rgb(26, 160, 162);
+        border-radius: 10px;
 }
-.row h1,
-.row h2 {
+.row {
+        margin-bottom: 20px;
+}
+.row h1, .row h2, .row h3, .row h4, .row h5, .row h6, .row p {
         text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px; 
+        border: 2px solid rgb(26, 160, 162);
+        border-radius: 10px;
+        margin-bottom: 10px;
+        line-height: 10px;
+}
+.row p { 
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px; 
+        border: 2px solid rgb(26, 160, 162);
+        border-radius: 10px;
+        line-height: 1.6;
 }
 
 form {
@@ -40,10 +63,16 @@ form {
         max-width: 400px; 
         margin: 0 auto; 
         padding: 20px; 
-        border: 2px solid aqua; 
+        border: 2px solid rgb(26, 160, 162);
         border-radius: 5px;
 }
 
 h1, h2, h3, h4, h5 {
         margin: 10px 0;
+}
+
+.blue-border {
+        border: 2px solid rgb(26, 160, 162);
+        padding: 10px;
+        border-radius: 5px;
 }
