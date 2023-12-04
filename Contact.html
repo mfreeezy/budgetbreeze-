@@ -28,31 +28,28 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h3>Thank you for choosing budgeting breeze for your budgeting needs! You can contact us at the information below and submit a form below for a personal budget that fits your life!</h3>
-        <h4>Phone: (803)***-****</h4>
-        <h5>Email: contactbudgetbreeze@gmail.com</h5>
+        <h3>Thank you for choosing budgeting breeze for your budgeting needs!</h3>
+        <h4>You can contact us at the information below and submit a form below for a personal budget that fits your life!</h4>    
+        <h5>Phone: (803)528-0001</h5>
+        <h6>Email: contactbudgetbreeze@gmail.com</h6>
     </header>
 
-    <h1>Contact Us</h1>
-    <form action="submit.php" method="POST">
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" required>
-        </div>
-        <div> 
-            <label for="inquiry">Inquiry:</label>
-            <textarea id="inquiry" name="inquiry" rows="20" required></textarea>
-        </div>
-        <div>
-            <input type="submit" value="Submit">
-        </div>
+    <form id="form1" method="POST"> 
+        <h1>Contact Us</h1>
+        <h2>First Name</h2>
+        <input name="Input1" placeholder="First Name..." style="border-radius: 3px;">
+        <h3>Last Name</h3>
+        <input name="input2" placeholder="Last Name..." style="border-radius: 3px;">
+        <h4>Email Address</h4>
+        <input name="input3" placeholder="Email Address..." style="border-radius: 3px;">
+        <h5>Subject</h5>
+        <textarea name="input4" placeholder="Subject...." style="border-radius: 3px;" rows="5"
+        cols="30"></textarea>"
+        <br>
+
+        <button name="button1" type="submit" style="width: 100px; height: 20px; margin-top: 1rem;">Submit</button> 
     </form>
+       
+
 </body>
+</html>
